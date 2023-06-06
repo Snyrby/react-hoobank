@@ -1,5 +1,6 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
+import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -24,6 +25,9 @@ const Hero = () => {
             The Next <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>{" "} Payment Method.
           </h1>
+          <div className="ss:flex hidden md:mr-4 mr-0">
+            <GetStarted />
+          </div>
         </div>
       </div>
     </section>
